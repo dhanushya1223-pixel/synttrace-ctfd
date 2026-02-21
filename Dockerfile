@@ -1,0 +1,6 @@
+FROM ctfd/ctfd:latest
+
+ENV WORKERS=4
+ENV THREADS=2
+
+EXPOSE 8000
