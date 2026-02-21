@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: synttrace-ctfd
+    env: docker
+    plan: standard
+    autoDeploy: false
